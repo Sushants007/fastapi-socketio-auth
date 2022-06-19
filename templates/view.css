@@ -1,0 +1,6 @@
+body{
+    display: grid;
+    align-content: center;
+    place-items: center;
+    background:linear-gradient(45deg, rgb(52, 36, 126), transparent);
+}

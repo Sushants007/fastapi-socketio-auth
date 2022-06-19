@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    place-items: center;
+    background:linear-gradient(45deg, rgb(52, 36, 126), transparent);
+    text-align: center;
+}
+.form-center{
+    width: fit-content;
+    height: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, rgb(203,192,255),transparent);
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+}
+
+.form-center>form>input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
